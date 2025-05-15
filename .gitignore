@@ -1,2 +1,3 @@
 myenv/
 shop.db
+__pycache__/

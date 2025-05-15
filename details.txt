@@ -1,0 +1,82 @@
+Here are the inference commands based on the models listed in the immersive.  Note that specific tags (like model sizes) might need to be included for some models.  You can find the available tags on the Ollama website
+
+Llama Models (Meta):
+
+Llama 2:
+
+ollama run llama2
+
+Llama 3:
+
+ollama run llama3
+
+You might need to specify the size (e.g., 8b, 70b) if you want a specific variant:
+
+ollama run llama3:8b
+ollama run llama3:70b
+
+Gemma Models (Google):
+
+Gemma:
+
+ollama run gemma
+
+Gemma 2:
+
+ollama run gemma2
+
+Gemma 3:
+
+ollama run gemma3
+
+You might need to specify the size.  For example:
+
+ollama run gemma3:1b
+ollama run gemma3:4b
+
+Mistral Models (Mistral AI):
+
+Mistral:
+
+ollama run mistral
+
+Mixtral:
+
+ollama run mixtral
+
+Mistral Small:
+
+ ollama run mistral-small
+
+Mistral Large:
+
+ollama run mistral-large
+
+Qwen Models (Alibaba):
+
+Qwen:
+
+ollama run qwen
+
+Qwen2:
+
+ollama run qwen2
+
+Phi Models (Microsoft):
+
+Phi-3:
+
+ollama run phi3
+
+DeepSeek Models:
+
+DeepSeek
+
+ollama run deepseek
+
+CodeLlama (Meta):
+
+CodeLlama:
+
+ollama run codellama
+
